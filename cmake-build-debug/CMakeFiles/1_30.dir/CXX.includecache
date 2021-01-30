@@ -6,7 +6,15 @@
 
 #IncludeRegexTransform: 
 
-E:/C/1_30/main.c
-stdio.h
+E:/C/1_30/http.cpp
+iostream
+-
+WinSock2.h
+-
+http.h
+E:/C/1_30/http.h
+
+E:/C/1_30/http.h
+string
 -
 

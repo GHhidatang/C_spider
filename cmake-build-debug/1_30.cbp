@@ -24,6 +24,9 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="d:\clion\mingw\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="d:\clion\mingw\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="d:\clion\mingw\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
 					<Add directory="d:\clion\mingw\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
 					<Add directory="d:\clion\mingw\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
 					<Add directory="d:\clion\mingw\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
@@ -43,6 +46,9 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="d:\clion\mingw\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="d:\clion\mingw\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="d:\clion\mingw\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
 					<Add directory="d:\clion\mingw\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
 					<Add directory="d:\clion\mingw\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
 					<Add directory="d:\clion\mingw\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
@@ -76,7 +82,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="E:/C/1_30/main.c">
+		<Unit filename="E:/C/1_30/http.cpp">
+			<Option target="1_30"/>
+		</Unit>
+		<Unit filename="E:/C/1_30/http.h">
+			<Option target="1_30"/>
+		</Unit>
+		<Unit filename="E:/C/1_30/main.cpp">
 			<Option target="1_30"/>
 		</Unit>
 		<Unit filename="E:/C/1_30/CMakeLists.txt">

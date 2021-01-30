@@ -1,3 +1,3 @@
 "D:\CLion\CLion\CLion 2019.3.5\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\1_30.dir/objects.a
 D:\CLion\MinGW\MinGW\bin\ar.exe cr CMakeFiles\1_30.dir/objects.a @CMakeFiles\1_30.dir\objects1.rsp
-D:\CLion\MinGW\MinGW\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\1_30.dir/objects.a -Wl,--no-whole-archive  -o 1_30.exe -Wl,--out-implib,lib1_30.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\1_30.dir\linklibs.rsp
+D:\CLion\MinGW\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\1_30.dir/objects.a -Wl,--no-whole-archive  -o 1_30.exe -Wl,--out-implib,lib1_30.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\1_30.dir\linklibs.rsp

@@ -122,32 +122,59 @@ depend:
 	$(MAKE) -f CMakeFiles\1_30.dir\build.make CMakeFiles/1_30.dir/build
 .PHONY : 1_30/fast
 
-main.obj: main.c.obj
+http.obj: http.cpp.obj
+
+.PHONY : http.obj
+
+# target to build an object file
+http.cpp.obj:
+	$(MAKE) -f CMakeFiles\1_30.dir\build.make CMakeFiles/1_30.dir/http.cpp.obj
+.PHONY : http.cpp.obj
+
+http.i: http.cpp.i
+
+.PHONY : http.i
+
+# target to preprocess a source file
+http.cpp.i:
+	$(MAKE) -f CMakeFiles\1_30.dir\build.make CMakeFiles/1_30.dir/http.cpp.i
+.PHONY : http.cpp.i
+
+http.s: http.cpp.s
+
+.PHONY : http.s
+
+# target to generate assembly for a file
+http.cpp.s:
+	$(MAKE) -f CMakeFiles\1_30.dir\build.make CMakeFiles/1_30.dir/http.cpp.s
+.PHONY : http.cpp.s
+
+main.obj: main.cpp.obj
 
 .PHONY : main.obj
 
 # target to build an object file
-main.c.obj:
-	$(MAKE) -f CMakeFiles\1_30.dir\build.make CMakeFiles/1_30.dir/main.c.obj
-.PHONY : main.c.obj
+main.cpp.obj:
+	$(MAKE) -f CMakeFiles\1_30.dir\build.make CMakeFiles/1_30.dir/main.cpp.obj
+.PHONY : main.cpp.obj
 
-main.i: main.c.i
+main.i: main.cpp.i
 
 .PHONY : main.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles\1_30.dir\build.make CMakeFiles/1_30.dir/main.c.i
-.PHONY : main.c.i
+main.cpp.i:
+	$(MAKE) -f CMakeFiles\1_30.dir\build.make CMakeFiles/1_30.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-main.s: main.c.s
+main.s: main.cpp.s
 
 .PHONY : main.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles\1_30.dir\build.make CMakeFiles/1_30.dir/main.c.s
-.PHONY : main.c.s
+main.cpp.s:
+	$(MAKE) -f CMakeFiles\1_30.dir\build.make CMakeFiles/1_30.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -158,6 +185,9 @@ help:
 	@echo ... 1_30
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... http.obj
+	@echo ... http.i
+	@echo ... http.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
